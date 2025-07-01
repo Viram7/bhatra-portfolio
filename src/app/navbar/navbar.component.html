@@ -1,0 +1,31 @@
+<div id="navbar-container-parent">
+
+  <div id="navbar-container">
+
+    <div id="navbar-container-logo-box" class="navbar-containe-inside-logo-button-box">
+
+      <img id="navbar-container-logo-img" class="navbar-container-img-button" src="../../assets/all_photo/Emp_logo.png">
+
+    </div>
+    <div id="navbar-container-button-box" class="navbar-containe-inside-logo-button-box">
+      <button id="navbar-container-button-home" class="navbar-container-img-button" type="button"> <a
+          class="navbar-container-button-a-tag" [routerLink]="['../home']" routerLinkActive="router-link-active">
+          HOME</a> </button>
+      <button id="navbar-container-button-about" class="navbar-container-img-button" type="button"> <a
+          class="navbar-container-button-a-tag" [routerLink]="['../about']" routerLinkActive="router-link-active">
+          ABOUT</a> </button>
+      <button id="navbar-container-button-workshop" class="navbar-container-img-button" type="button"> <a
+          class="navbar-container-button-a-tag" [routerLink]="['../workshop']" routerLinkActive="router-link-active">
+          WORKSHOP </a> </button>
+      <button id="navbar-container-button-register`" class="navbar-container-img-button" type="button"> <a
+          class="navbar-container-button-a-tag"> REGISTER</a> </button>
+      <button id="navbar-container-button-podcast" class="navbar-container-img-button" type="button"> <a
+          class="navbar-container-button-a-tag"> PODCAST</a> </button>
+      <button id="navbar-container-button-upcoming" class="navbar-container-img-button" type="button"> <a
+          class="navbar-container-button-a-tag">UPCOMING EVENT </a> </button>
+    </div>
+
+  </div>
+</div>
+<div id="navbar-container-space"></div>
+<router-outlet></router-outlet>

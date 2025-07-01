@@ -1,0 +1,30 @@
+#con{
+  background-color: #E8E8E88C;
+  // padding: 1px;
+  // padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 100px;
+  div{
+    p{
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 65px;
+      color: #F5C407;
+      margin: 20px;
+
+    }
+  }
+}
+#imgs{
+  display: flex;
+  justify-content: center;
+  gap :25px;
+  img{
+    // text-align: center;
+    height: 350px;
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 1px rgba(135, 134, 134, 0.197);
+    margin: 0px 20px 20px 20px;
+  }
+}

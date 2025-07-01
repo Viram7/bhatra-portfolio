@@ -1,0 +1,58 @@
+
+#body{
+  display:flex;
+  justify-content: center;
+
+  border-bottom: 3px solid #f5c32c;
+}
+.unlock-secrets-container {
+  width: 65%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #4b006e;
+
+  .unlock-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .unlock-subtitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+    .highlight {
+      color: #f5c32c;
+      font-weight: bold;
+    }
+  }
+
+  .convert-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#F6F5F5;
+    border: 2px dashed #4b006e4a;
+    border-radius: 10px;
+    display: inline-block;
+
+    p {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 0;
+
+      .highlight {
+        color: #f5c32c;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .benefits {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #4b006e;
+  }
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+#about-empower-container{
+  height: 790px;
+  // background-color: rgb(205, 12, 12);
+  background-image: url("../../assets/all_photo/background_about__emp.jpg");
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0px;
+
+
+
+}
+
+#about-empower-container-inside-img-box-bhatra-img{
+  height: 520px;
+  border-radius: 5px;
+}
+
+.about-empower-container-inside-box{
+  display: inline-flex;
+
+  // border: 1px solid yellow ;
+  // width: 100px;
+gap:40px;
+margin-bottom: 40px;
+}
+#about-empower{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 42px;
+}
+#b2b{
+  color: rgba(245, 196, 7, 1);
+  text-shadow:     1px 1px 0px #000,
+  -1px -1px 0px #000,
+  1px -1px 0px #000,
+  -1px 1px 0px #000;  ;
+}
+#about-empower-container-text-{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:17px ;
+
+}
+.about-empower-container-inside-img-text-box{
+  // display: flex;
+  // border: 5px solid rgb(9, 83, 230) ;
+  // display: inline-flex;
+  text-align: start;
+  // gap:20px
+
+}
+#about-empower-container-inside-text-box{
+  // display: inline-flex;
+  // justify-content: start;
+  // flex-wrap: wrap;
+  // background-color: beige;
+  width: 598px;
+  overflow-wrap: break-word;
+  // display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  text-align: start;
+  // padding-right: 20px;
+
+
+
+}
+#about-empower-container-inside-b2b-img{
+  // width: 520px;
+  height: 200px;
+}
+#about-empower-container-inside-text-box h3{
+  font-size: 55px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(63,2,80,1);
+}
+#about-empower-container-inside-text-box p{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(63,2,80,1);
+  margin: 0px;
+  font-size: 16px;
+}
+
+#about-empower-container-inside-button{
+  // margin: 10px;
+  margin-top: 10px;
+  background-color: rgb(63,2,80,1);
+  color:rgba(245, 196, 7, 1);
+  border: 1px solid rgba(112, 112, 112, 1);
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#about-empower-lower-padding{
+  display: block;
+  height: 50px;
+  background-color: white;
+}

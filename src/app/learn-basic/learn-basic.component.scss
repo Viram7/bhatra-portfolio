@@ -1,0 +1,29 @@
+#body{
+  display: flex;
+  justify-content: center;
+  color:#3F0250 ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 37px;
+  #con{
+    text-align: center;
+
+    width:80%;
+  }
+  #text-back{
+    // all:unset;
+    text-align: start;
+    // width: 100%;
+    background-color: #F6F5F5;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding: 40px;
+    font-size: 35px;
+    font-weight: 500;
+    .how{
+      margin:15px;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding: 0px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+#body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(206, 198, 198, 0.699);
+  #con{
+    // border: 2px solid black;
+    width: 100%;
+    h1{
+      text-align: center;
+    }
+
+
+  }
+
+}
+#yt-box{
+  // display: flex;
+  width: 100%;
+  text-align: center;
+  // background-color: rgb(86, 64, 37);
+
+}
+iframe{
+  // border: 2px solid black;
+  width: 49%;
+}

@@ -1,0 +1,26 @@
+#body{
+  // text-align: center;
+  display: flex;
+  justify-content: center;
+  div{
+    // display: flex;
+    text-align: center;
+    font-size: 22px;
+    width: 80%;
+    font-weight: 600;
+    // margin-bottom: 400px;
+    p{
+      margin-bottom: 50px;
+    }
+    // background-color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3F0250;
+    h3{
+      text-align: start;
+      font-size: 22px;
+      font-weight: 100px;
+      // margin-top: 20px;
+      margin-left: 30px;
+    }
+  }
+}
