@@ -5,8 +5,8 @@ import { WorkshopComponent } from './workshop/workshop.component';
 
 export const routes: Routes = [
 
-  {path:'',component:HomeComponent },
-  // {path:'',redirectTo:'home', pathMatch: 'full' },
+  // {path:'',component:HomeComponent },
+   { path: '', redirectTo: 'home', pathMatch: 'full' },
 
   {path:'home',component:HomeComponent },
   {path:'about',component:AboutComponent},

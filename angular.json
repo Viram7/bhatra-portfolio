@@ -26,13 +26,11 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/favicon.ico",
-              "src/assets",
-
-                "src",
+               "src/favicon.ico",
+  "src/assets",
   {
     "glob": "_redirects",
-    "input": "src",
+    "input": "src/assets",
     "output": "./"
   }
             ],
@@ -49,7 +47,7 @@
           "configurations": {
             "production": {
               "budgets": [
-          
+
               ],
               "outputHashing": "all"
             },
